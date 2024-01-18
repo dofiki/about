@@ -48,7 +48,7 @@ body{
     background-color: #40513B;
     background-image: url(shapes/shape-intro.svg);
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 95vh;
 }
 
 .projects{
@@ -80,4 +80,20 @@ body{
 
 cursor{
     display: none;
+}
+
+.dixit{
+    height: 80vh;
+    color: white;
+    display: flex;
+    font-size: 4rem;
+    padding-top: 9rem;
+    padding-left: 1rem;
+    justify-content: center;
+    font-family: 'DM Serif Text', serif;
+}
+
+.name{
+    color: rgb(146, 224, 128);
+    display:contents;
 }
