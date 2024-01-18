@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+}
+
+body{
+    cursor: none;
+    position: relative;
+    background-color: #3D5F40;
+}
+
+.nav{
+    height: 3rem;
+    width: 100vw;
+    background-color: #40513B;
+    position: fixed;
+    font-family: 'Instrument Serif', serif;
+}
+
+.nav ul{
+    display: flex;
+    height: 3rem;
+    justify-content: center;
+    gap: 2rem;
+    list-style: none;
+    margin: 0px;
+}
+
+.nav ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.nav ul li a:hover{
+    background-color: #012003;
+    padding: 0.5rem;
+    border-radius: 15px;
+    transition: 0.2s ease-in;
+    cursor: none;
+}
+
+.nav ul li{
+    display: flex;
+    align-self: center;
+}
+
+.intro{
+    background-color: #40513B;
+    background-image: url(shapes/shape-intro.svg);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.projects{
+    background-color: #40513B;
+    background-image: url(shapes/shape-projects.svg);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.about{
+    background-color: #40513B;
+    background-image: url(shapes/shape-about.svg);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.cursor {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 137, 137);
+    height: 1.3rem;
+    width: 1.3rem;
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 100; 
+    mix-blend-mode: difference;
+}
+
+cursor{
+    display: none;
+}
